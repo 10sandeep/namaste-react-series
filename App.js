@@ -9,11 +9,35 @@
 
         //   
 
-       
+       //creating a nested structure
+        // const parent=React.createElement("div", {id:"parent"},
+        //   React.createElement("div" ,{id:"child"},
+        //   React.createElement("h1" ,{},"i am the heading") ) );
+        //   console.log(parent)
+
+        // const root = ReactDOM.createRoot(document.getElementById("root"));
+        // root.render(parent);
+
+        //creating a siblings you can convert it into an array of children
+
         const parent=React.createElement("div", {id:"parent"},
-          React.createElement("div" ,{id:"child"},
-          React.createElement("h1" ,{},"i am the heading") ) );
+         [ React.createElement("div" ,{id:"child"},[
+          React.createElement("h1" ,{},"i am the heading"),
+          React.createElement("h2" ,{},"i am the second heading"),
+          ]),
+        
+         
+            React.createElement("div" ,{id:"child"},[
+            React.createElement("h1" ,{},"i am the heading"),
+            React.createElement("h2" ,{},"i am the second heading"),
+          ]),
+         ]);
+
+
+
+
           console.log(parent)
 
         const root = ReactDOM.createRoot(document.getElementById("root"));
         root.render(parent);
+
