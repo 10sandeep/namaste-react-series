@@ -24,24 +24,24 @@
 
         //creating a siblings you can convert it into an array of children
 
-        const parent=React.createElement("div", {id:"parent"},
-         [ React.createElement("div" ,{id:"child"},[
-          React.createElement("h1" ,{},"i am the heading"),
-          React.createElement("h2" ,{},"i am the second heading"),
-          ]),
+        // const parent=React.createElement("div", {id:"parent"},
+        //  [ React.createElement("div" ,{id:"child"},[
+        //   React.createElement("h1" ,{},"i am the heading"),
+        //   React.createElement("h2" ,{},"i am the second heading"),
+        //   ]),
         
          
-            React.createElement("div" ,{id:"child"},[
-            React.createElement("h1" ,{},"i am the heading"),
-            React.createElement("h2" ,{},"i am the second heading"),
-          ]),
-         ]);
+        //     React.createElement("div" ,{id:"child"},[
+        //     React.createElement("h1" ,{},"i am the heading"),
+        //     React.createElement("h2" ,{},"i am the second heading"),
+        //   ]),
+        //  ]);
 
 
 
 
-          console.log(parent)
+        //   console.log(parent)
 
-        const root = ReactDOM.createRoot(document.getElementById("root"));
-        root.render(parent); //it is just put the parent inside the root,and if something already there inside the root tag then it will replace it with the parent
+        // const root = ReactDOM.createRoot(document.getElementById("root"));
+        // root.render(parent); //it is just put the parent inside the root,and if something already there inside the root tag then it will replace it with the parent
 
