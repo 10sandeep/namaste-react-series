@@ -1,0 +1,25 @@
+{
+  "name": "namaste-react-2",
+  "version": "1.0.0",
+  "description": "this is namaste react episode 2",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/10sandeep/namaste-react-series)"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "react",
+    "sandeep",
+    "nayak"
+  ],
+  "author": "Sandeep Nayak",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}

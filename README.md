@@ -2,3 +2,41 @@
 
 its not only react makes our app faster, but also the fact that we are using a virtual DOM, which is a lightweight in-memory and also many packages are making our app faster.
 
+# Package,json
+
+it is a configuration for our npm
+
+npm-it is a package manager that manages package that we install in our project.
+
+bunddler is the most important package in our package.
+
+# what is a bundler
+
+when we have normal html css js file our whole code needs to be bundled before it could send to production,bundler helps to do all these things
+
+vite webpack are bundler
+
+it helps to bundle our code and also helps to minify our code and also helps to make our code faster and also it bundles/ packages our app properly that it can be shipped to production.
+
+when we do createreact app this create react app uses web- pack bundler behind the scene.
+
+to install dependecies we have to command npm install -parcel
+
+npm-is the command/package manager
+install-installing 
+-D- Dev dependecy
+parcel-package name
+
+there are two types of dependecies that an app can have:
+1.dev-dependecies
+2.normal dependecies
+
+dev-dependecies-it is generally used in our development phase
+normal dependecies-it is used in production also
+
+package-lock.json-it keeps the track of its exact version
+
+package.json- when we have a new version of parcel come it will update it to that version "^2.3.8" or it is a configuration file for our npm
+but package-lock.json- it lock that version and keeps the track of that version
+
+node module- it is a folder where all our dependecies are stored or it is like database that stores all the data and dependecies of those packages that our project needs.
