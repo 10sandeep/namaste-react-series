@@ -37,6 +37,14 @@ normal dependecies-it is used in production also
 package-lock.json-it keeps the track of its exact version
 
 package.json- when we have a new version of parcel come it will update it to that version "^2.3.8" or it is a configuration file for our npm
+
+^ symbol known as caret,it upgrades the version of parcel to the latest version of parcel that is compatible with the version of parcel.
 but package-lock.json- it lock that version and keeps the track of that version
 
 node module- it is a folder where all our dependecies are stored or it is like database that stores all the data and dependecies of those packages that our project needs.
+
+integrity-it is basically a hash,sometime we face an issue that the code version  run in the local but not in production so to avoid that issue we need hash.
+
+
+if you have package.json you can re-create all the node module.
+
