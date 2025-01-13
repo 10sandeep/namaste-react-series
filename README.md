@@ -2,7 +2,7 @@
 
 its not only react makes our app faster, but also the fact that we are using a virtual DOM, which is a lightweight in-memory and also many packages are making our app faster.
 
-# Package,json
+# Package.json
 
 it is a configuration for our npm
 
@@ -47,4 +47,15 @@ integrity-it is basically a hash,sometime we face an issue that the code version
 
 
 if you have package.json you can re-create all the node module.
+
+to ignite our app we should use npx parcel index.html
+
+npx-Node Package Executor/ it execute our package
+parcel- it is a bundler
+index.html- it is the entry point of our app
+
+when we use this basically parcel gives us a server and the app is available in localhost:1234
+
+npm-installing a package
+npx-executing a  package
 
