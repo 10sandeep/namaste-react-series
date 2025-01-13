@@ -59,3 +59,22 @@ when we use this basically parcel gives us a server and the app is available in 
 npm-installing a package
 npx-executing a  package
 
+ npm i is the short form of npm install
+
+ we have installed the react dependecies before now we will install react-dom by running the command npm install react-dom
+
+ after this we no longer need cdn
+
+ we can re run our app by running npx parcel index.html
+
+But it will throw an error that React is not defined because we only installed React. We need to define it by using the import keyword in the App.js file.
+
+import React from "react" this means we are importing react from our node modules
+
+like this we also need react-dom to be imported in our App.js file.
+
+After this it will also throw an error that browser scripts cannot imports and exports.
+
+because browser considering it as a normal javascript and normal javascript does not have import export  in it.
+
+so we have to defined its type as module
