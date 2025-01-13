@@ -2,13 +2,18 @@
 
 its not only react makes our app faster, but also the fact that we are using a virtual DOM, which is a lightweight in-memory and also many packages are making our app faster.
 
+# npm add to our project
+
+by writing command npm init in terminal.It will generate a file named package.json
+
+
 # Package.json
 
 it is a configuration for our npm
 
 npm-it is a package manager that manages package that we install in our project.
 
-bunddler is the most important package in our package.
+bundler is the most important package in our package.
 
 # what is a bundler
 
@@ -78,3 +83,38 @@ After this it will also throw an error that browser scripts cannot imports and e
 because browser considering it as a normal javascript and normal javascript does not have import export  in it.
 
 so we have to defined its type as module
+
+# Parcel
+
+-dev build
+-Local Server
+-HMR= Hot module replacement
+-parcel using file watching algorithm-written in C++
+-Caching -Faster Builds
+-image Optimization
+-Minification
+-bundle
+-Compressing
+-Consistant hashing
+-Code Splitting
+-Differential Bundling - support older browser
+-Error handling
+-HTTPs
+-Diagnostics- give beautiful error
+-Tree shaking algorithm - remove unused code
+
+# dist
+when we execute parcel or when we do npx parcel index.html it generate development build of your project and hosted on 1234,when it generates development build it puts it into dist folder.Then all the code coming from that dist folder .And when we refresh the code or save it,it was using parcel-cach and dist to update using HMR.
+
+When you do the project production build by running npx parcel build index.html it will generate production build and it will be in dist.
+
+you have to remove main:"App.js" from the package.json file
+
+When your project is in production phase 3 files goes to it html,css and js.
+
+.parcel-cach is used for development build and it is not used in production build.
+
+it helps to reduce the time of development build.
+
+
+

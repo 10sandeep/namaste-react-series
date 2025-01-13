@@ -1,1 +1,3 @@
 /node.modules
+/dist
+.parcel-cach
