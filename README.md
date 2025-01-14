@@ -117,4 +117,14 @@ When your project is in production phase 3 files goes to it html,css and js.
 it helps to reduce the time of development build.
 
 
+# Make our app compatible for older version of different browsers
 
+to make our app comaptible for older version pf different version of browser we use something known as browserslist
+we will cofigure it in package.json file.
+
+"browserslist":[
+    "last 2 chrome version",
+    "last 2 safari version",
+    "last 2 firefox version",
+]
+it takes an array of browsers.
