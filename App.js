@@ -11,8 +11,6 @@ import ReactDOM from "react-dom/client";
        //here heading is known as react element or javascript object
         //  root.render( heading);
 
-        //   
-
        //creating a nested structure
         // const parent=React.createElement("div", {id:"parent"},
         //   React.createElement("div" ,{id:"child"},
@@ -45,4 +43,6 @@ import ReactDOM from "react-dom/client";
 
         // const root = ReactDOM.createRoot(document.getElementById("root"));
         // root.render(parent); //it is just put the parent inside the root,and if something already there inside the root tag then it will replace it with the parent
-
+ 
+        const jsxheading= <h1>jai Hind </h1>;
+        root.render(jsxheading)

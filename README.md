@@ -25,7 +25,7 @@ it helps to bundle our code and also helps to minify our code and also helps to 
 
 when we do createreact app this create react app uses web- pack bundler behind the scene.
 
-to install dependecies we have to command npm install -parcel
+to install dependecies we have to command npm install -D parcel
 
 npm-is the command/package manager
 install-installing 
@@ -83,7 +83,7 @@ After this it will also throw an error that browser scripts cannot imports and e
 because browser considering it as a normal javascript and normal javascript does not have import export  in it.
 
 so we have to defined its type as module
-
+ 
 # Parcel
 
 -dev build
@@ -106,9 +106,9 @@ so we have to defined its type as module
 # dist
 when we execute parcel or when we do npx parcel index.html it generate development build of your project and hosted on 1234,when it generates development build it puts it into dist folder.Then all the code coming from that dist folder .And when we refresh the code or save it,it was using parcel-cach and dist to update using HMR.
 
-When you do the project production build by running npx parcel build index.html it will generate production build and it will be in dist.
+When you do the project production build by running npx parcel build index.html it will generate production build and it will be in dist file.
 
-you have to remove main:"App.js" from the package.json file
+you have to remove main:"App.js" from the package.json file.
 
 When your project is in production phase 3 files goes to it html,css and js.
 
@@ -128,3 +128,41 @@ we will cofigure it in package.json file.
     "last 2 firefox version",
 ]
 it takes an array of browsers.
+
+
+npx parcel index.html means you are executing an npm  package parcel and give a source file as index.html.
+
+
+npx parcel index.html is used for development phase and npx parcel build index.html is used for production phase.
+
+so we have to command two different commands for development and production phase.so we can use a script in package.json file to make it easy.
+
+ "start":"parcel index.html",/ it will run our project in development phase.
+"build": "parcel build index.html", / it will run our project in production phase.
+
+we can command it by running npm run start to start the project in developement phase.
+like that we can command npm run build to build the project for production phase.
+
+DOM element-dom elements are the elements that are created by the browser and are part of the document object model.
+ex-html,body etc.
+
+<!-- React Element -->
+
+const heading=React.createElement("h1",{},"Namaste React")
+
+React Element at the end is a object.
+when we render this element on to the dom it becomes a html element.
+
+JSX is not a part of react
+we can build our project without using jsx
+JSX makes our code more readable and easier to write.
+JSX is not HTML,It is HTML like syntax.
+JSX is a syntax extension for JavaScript.
+
+const jsxheading=<h>hello Namaste Javascript</h>
+js engine does not understand jsx,js engine understands es6.
+
+const jsxheading=<h>hello Namaste Javascript</h> is transpiled to the code that react/browser can understand.It is transpiled by Parcel.It is transpiled by a package names as babel.
+
+
+ 
