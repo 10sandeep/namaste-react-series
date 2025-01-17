@@ -185,6 +185,12 @@ There are two types of components in react.
 *.its a new way of writing react components.
 *.Class based components uses javascript functions.
 
+Functional Components are type of javascript functions which returns 
+some piece of jsx.
+
+Functional components names first letter always be on capital letter.
+
+
 
 
 
