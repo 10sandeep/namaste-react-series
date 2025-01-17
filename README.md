@@ -174,5 +174,20 @@ if you want to give an attribute the you have to give it in camelcase.
 When you are writing jsx code if you write it in single line then its okay if you wrting it in multiple line then you have to put it inside a parenthesis because babel need to understand it.
 
 
+# React Component
+
+Everythig in react is a component.
+There are two types of components in react.
+1.Class Based Components-
+*its a old way of writing react components.
+*It used javascript Classes.
+2.Functional Based Components-
+*.its a new way of writing react components.
+*.Class based components uses javascript functions.
+
+
+
+
+
 
  
