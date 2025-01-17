@@ -164,5 +164,15 @@ js engine does not understand jsx,js engine understands es6.
 
 const jsxheading=<h>hello Namaste Javascript</h> is transpiled to the code that react/browser can understand.It is transpiled by Parcel.It is transpiled by a package names as babel.
 
+babel is the javascript compiler/transpiler.
+
+React.creatElement is a react element or javascript object it is rendered to html code by babel to the code that browser can understand.
+babel takes JSX code and converts into react.createElement into reactelement or javascript object and rendered as html element.
+
+if you want to give an attribute the you have to give it in camelcase.
+
+When you are writing jsx code if you write it in single line then its okay if you wrting it in multiple line then you have to put it inside a parenthesis because babel need to understand it.
+
+
 
  
